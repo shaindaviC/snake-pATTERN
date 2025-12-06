@@ -10,7 +10,7 @@ class Program
         int[,] mat = new int[n, n];
 
         Console.WriteLine("Enter the matrix row by row:");
-        // Example row input: 10 20 30 40
+       
 
         for (int i = 0; i < n; i++)
         {
@@ -24,7 +24,7 @@ class Program
 
         Console.Write("Output: ");
 
-        // Snake pattern printing
+     
         for (int i = 0; i < n; i++)
         {
             if (i % 2 == 0)       // even row → left to right
